@@ -1,4 +1,7 @@
+#******************************************************************************
+# WILL HAVE TO CHANGE setwd TO YOUR OWN DIRECTORY
 setwd("~/Desktop/School/Math 425 Applied Stats Models/MATH425-Assignment-1")
+#******************************************************************************
 gpa_data = read.csv("data/gpa-act.csv", header=T)
 
 # x = ACT SCORE
@@ -16,7 +19,7 @@ par(mfrow = c(1, 1))
 # B0 = 2.114, B1 = 0.0388 
 # Estimated Regression Function: GPA = 2.114 + (0.0388*ACT)
 
-# Fit the GPA & ACT data to Simple Linear Regression mode, lm: y = B0 + B1x 
+# Fit the GPA & ACT data to Simple Linear Regression model, lm: y = B0 + B1x 
 gpa_model = lm(y~x, data = gpa_data)
 
 # Utilize the lm.summary() function to examine properties of the fitted model
@@ -45,7 +48,7 @@ abline(a = B0, b = B1)
 # (c) Obtain a point estimate of the mean freshman GPA for students with ACT 
 #     test score X = 30.
 # Point Estimate = 3.278
-# (Upper, Fit, Lower) : (4.525, 3.278, 2.032)
+# (Lower, Upper) : (2.032, 4.525)
 
 # When using lm(), must always use the same variable names EVERY TIME you refer
 # to data. 
