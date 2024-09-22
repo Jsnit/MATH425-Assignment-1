@@ -6,7 +6,7 @@ to determine whether a student's grade point average (GPA) at the end of the fre
 year (Y) can be predicted from the ACT test score (X). Assume that simple linear regression
 is appropriate.
 Using R, perform statistical operations on the dataset: 
-https://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/KutnerData/Chapter%20%201%20Data%20Sets/CH01PR19.txt (gpa-act.csv) in order to answer:
+https://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/KutnerData/Chapter%20%201%20Data%20Sets/CH01PR19.txt (data/gpa-act.csv) in order to answer:
   (a) Obtain the least squares estimates of 𝛽0 and 𝛽1, and state the estimated regression function.
   (b) Plot the estimated regression function and the data. Does the estimated regression function appear to fit the data well?
   (c) Obtain a point estimate of the mean freshman GPA for students with ACT test score X = 30.
@@ -18,7 +18,7 @@ decrease with age. To explore this relationship in women, a nutritionist randoml
 The results follow; X is age, and Y is a measure of muscle mass. Assume that first-order
 regression model is appropriate.
 Using R, perform statistical operations on the dataset: 
-“http://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/KutnerData/Chapter%20%201%20Data%20Sets/CH01PR27.txt” (musclemass-age.csv) in order to answer:
+“http://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/KutnerData/Chapter%20%201%20Data%20Sets/CH01PR27.txt” (data/musclemass-age.csv) in order to answer:
   (a) Obtain the estimated regression function. Plot the estimated regression function and
       the data. Does a linear regression function appear to give a good fit here? Does your plot
       support the anticipation that muscle mass decreases with age?
