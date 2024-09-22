@@ -8,11 +8,8 @@ is appropriate.
 Using R, perform statistical operations on the dataset: 
 https://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/KutnerData/Chapter%20%201%20Data%20Sets/CH01PR19.txt (gpa-data.txt) in order to answer:
   (a) Obtain the least squares estimates of 𝛽0 and 𝛽1, and state the estimated regression function.
-  
   (b) Plot the estimated regression function and the data. Does the estimated regression function appear to fit the data well?
-  
   (c) Obtain a point estimate of the mean freshman GPA for students with ACT test score X = 30.
-
   (d) What is the point estimate of the change in the mean response when the entrance test score increases by one point?
 
 2. Muscle Mass (KNNL Problem #1.27 on page 36): A person's muscle mass is expected to
@@ -27,11 +24,8 @@ Using R, perform statistical operations on the dataset:
       support the anticipation that muscle mass decreases with age?
    (b) Obtain the following:
        (1) a point estimate of the difference in the mean muscle mass for women differing in age by one year
-   
        (2) a point estimate of the mean muscle mass for women aged X = 60 years,
-   
        (3) the value of the residual for the eighth case,
-   
        (4) a point estimate of 𝜎2.
    
 
