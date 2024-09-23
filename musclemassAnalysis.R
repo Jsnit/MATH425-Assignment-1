@@ -56,9 +56,6 @@ musclemass_model$residuals[8]
 # ------------------------------------------------------------------------------
 # (b.4) Obtain a point estimate of 𝜎2.
 
-
-# Need to use ANOVA(model)
-anova(musclemass_model)
-
-
+summary(musclemass_model)
+# Residual Standard Error = 8.173
 
